@@ -29,12 +29,13 @@ namespace jsonify
 		/// </summary>
 		private void InitializeComponent()
 		{
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
 			this.GB1 = new System.Windows.Forms.GroupBox();
+			this.Userin = new System.Windows.Forms.RichTextBox();
 			this.Format = new System.Windows.Forms.Button();
 			this.ClearO = new System.Windows.Forms.Button();
 			this.outP = new System.Windows.Forms.RichTextBox();
 			this.OutputB = new System.Windows.Forms.GroupBox();
-			this.Userin = new System.Windows.Forms.RichTextBox();
 			this.GB1.SuspendLayout();
 			this.OutputB.SuspendLayout();
 			this.SuspendLayout();
@@ -50,6 +51,18 @@ namespace jsonify
 			this.GB1.TabIndex = 0;
 			this.GB1.TabStop = false;
 			this.GB1.Text = "Input";
+			// 
+			// Userin
+			// 
+			this.Userin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+			this.Userin.BorderStyle = System.Windows.Forms.BorderStyle.None;
+			this.Userin.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Userin.Location = new System.Drawing.Point(6, 21);
+			this.Userin.Name = "Userin";
+			this.Userin.Size = new System.Drawing.Size(1078, 235);
+			this.Userin.TabIndex = 0;
+			this.Userin.Text = "";
 			// 
 			// Format
 			// 
@@ -97,18 +110,6 @@ namespace jsonify
 			this.OutputB.TabStop = false;
 			this.OutputB.Text = "Formated JSON";
 			// 
-			// Userin
-			// 
-			this.Userin.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-			this.Userin.BorderStyle = System.Windows.Forms.BorderStyle.None;
-			this.Userin.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.Userin.Location = new System.Drawing.Point(6, 21);
-			this.Userin.Name = "Userin";
-			this.Userin.Size = new System.Drawing.Size(1078, 235);
-			this.Userin.TabIndex = 0;
-			this.Userin.Text = "";
-			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -120,8 +121,9 @@ namespace jsonify
 			this.Controls.Add(this.Format);
 			this.Controls.Add(this.GB1);
 			this.Font = new System.Drawing.Font("Segoe UI", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Form1";
-			this.Text = "Form1";
+			this.Text = "Json Formater";
 			this.GB1.ResumeLayout(false);
 			this.OutputB.ResumeLayout(false);
 			this.ResumeLayout(false);
