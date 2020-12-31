@@ -1,0 +1,15 @@
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\jsonify.exe.config
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\jsonify.exe
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\jsonify.pdb
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\FastColoredTextBox.dll
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\Newtonsoft.Json.dll
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\FastColoredTextBox.xml
+C:\Users\josti\Desktop\jsonify\jsonify\bin\Release\Newtonsoft.Json.xml
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.csprojAssemblyReference.cache
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.Form1.resources
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.Properties.Resources.resources
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.csproj.GenerateResource.cache
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.csproj.CoreCompileInputs.cache
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.csproj.CopyComplete
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.exe
+C:\Users\josti\Desktop\jsonify\jsonify\obj\Release\jsonify.pdb
