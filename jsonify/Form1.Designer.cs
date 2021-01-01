@@ -36,6 +36,7 @@ namespace jsonify
 			this.ClearO = new System.Windows.Forms.Button();
 			this.outP = new System.Windows.Forms.RichTextBox();
 			this.OutputB = new System.Windows.Forms.GroupBox();
+			this.darkTheme = new System.Windows.Forms.CheckBox();
 			this.GB1.SuspendLayout();
 			this.OutputB.SuspendLayout();
 			this.SuspendLayout();
@@ -45,6 +46,7 @@ namespace jsonify
 			this.GB1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.GB1.Controls.Add(this.Userin);
+			this.GB1.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.GB1.Location = new System.Drawing.Point(12, 12);
 			this.GB1.Name = "GB1";
 			this.GB1.Size = new System.Drawing.Size(1090, 262);
@@ -110,12 +112,27 @@ namespace jsonify
 			this.OutputB.TabStop = false;
 			this.OutputB.Text = "Formated JSON";
 			// 
+			// darkTheme
+			// 
+			this.darkTheme.AutoSize = true;
+			this.darkTheme.Cursor = System.Windows.Forms.Cursors.SizeAll;
+			this.darkTheme.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+			this.darkTheme.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+			this.darkTheme.Location = new System.Drawing.Point(194, 292);
+			this.darkTheme.Name = "darkTheme";
+			this.darkTheme.Size = new System.Drawing.Size(86, 19);
+			this.darkTheme.TabIndex = 3;
+			this.darkTheme.Text = "Dark Theme";
+			this.darkTheme.UseVisualStyleBackColor = true;
+			this.darkTheme.CheckedChanged += new System.EventHandler(this.darkTheme_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
 			this.ClientSize = new System.Drawing.Size(1104, 595);
+			this.Controls.Add(this.darkTheme);
 			this.Controls.Add(this.OutputB);
 			this.Controls.Add(this.ClearO);
 			this.Controls.Add(this.Format);
@@ -127,6 +144,7 @@ namespace jsonify
 			this.GB1.ResumeLayout(false);
 			this.OutputB.ResumeLayout(false);
 			this.ResumeLayout(false);
+			this.PerformLayout();
 
 		}
 
@@ -138,6 +156,7 @@ namespace jsonify
 		private System.Windows.Forms.RichTextBox Userin;
 		private System.Windows.Forms.RichTextBox outP;
 		private System.Windows.Forms.GroupBox OutputB;
+		private System.Windows.Forms.CheckBox darkTheme;
 	}
 }
 
